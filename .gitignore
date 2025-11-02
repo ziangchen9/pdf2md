@@ -1,7 +1,5 @@
 scripts/
-model/
 data/
-test/
 __pycache__/
 
 # Additional Python ignores
