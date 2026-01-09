@@ -10,8 +10,9 @@ import torch
 from doclayout_yolo import YOLOv10
 from pdfplumber.page import Page
 
-from .schema import BoundingBox, PageElement
 from utils import get_config_value
+
+from .schema import BoundingBox, PageElement
 
 IMAGE_PATH_TEMPLATE = "page_{page_index}_image_{image_index}.png"
 IMAGE_LINK_TEMPLATE = "![page_{page_index}_image_{i}]({link})"
